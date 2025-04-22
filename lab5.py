@@ -1,11 +1,18 @@
+from doctest import run_docstring_examples
+
+
 def uses_none(string, forbidden_letters):
+    """
+    >>> uses_none("banana", "axyz")
+    True
+    """
     for letter in string.lower():
         if letter in forbidden_letters.lower():
             return False
     return True
 
 
-def uses_only(string, available): 
+def uses_only(string, available):
     for letter in string.lower():
         if letter not in available.lower():
             return False
@@ -35,6 +42,8 @@ def score_word(word, available):
         return len(word)
     return 0
 
+
+run_docstring_examples(uses_none, globals())
 
 print(uses_none("banana", "xyz"))
 print(uses_none("apple", "efg"))
