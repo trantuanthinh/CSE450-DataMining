@@ -2,18 +2,13 @@ import re
 
 
 def head(input_file, num_lines, output_file=None):
-    """
-    Reads the first `num_lines` lines from `input_file`.
-    If `output_file` is specified, writes the lines to it.
-    Otherwise, prints the lines to the console.
-    """
     try:
         with open(input_file, "r", encoding="utf-8") as infile:
             lines = []
             for _ in range(num_lines):
                 line = infile.readline()
                 if not line:
-                    break  # End of file reached
+                    break
                 lines.append(line)
     except FileNotFoundError:
         print(f"Error: The file '{input_file}' was not found.")
@@ -30,7 +25,7 @@ def head(input_file, num_lines, output_file=None):
             print(f"An error occurred while writing to '{output_file}': {e}")
     else:
         for line in lines:
-            print(line, end="")  # Avoid adding extra newlines
+            print(line, end="")
 
 
 def check_word(word, target_word):
