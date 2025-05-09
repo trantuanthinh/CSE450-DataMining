@@ -63,30 +63,30 @@ def find_metathesis_pairs(word_list):
     return result
 
 
-# t = (tuple([1, 2]), tuple([3, 4]))
-# my_dict = {t: "value"}
-# print(my_dict)
-# print(shift_word("cheer", 7))  # Kết quả mong đợi: jolly
-# print(shift_word("melon", 16))  # Kết quả mong đợi: cubed
-# words = [
-#     "listen",
-#     "silent",
-#     "enlist",
-#     "inlets",
-#     "google",
-#     "gogole",
-#     "evil",
-#     "vile",
-#     "veil",
-#     "live",
-# ]
-# find_anagram_groups(words)
-# sample_text = "This is a sample English text."
-# most_frequent_letters(sample_text)
-# print(word_distance("apple", "ammle"))  # Kết quả: 2
-# print(word_distance("hello", "hullo"))  # Kết quả: 1
-# print(word_distance("test", "tent"))  # Kết quả: 1
-# print(word_distance("same", "same"))  # Kết quả: 0
+t = (tuple([1, 2]), tuple([3, 4]))
+my_dict = {t: "value"}
+print(my_dict)
+print(shift_word("cheer", 7))  # Kết quả mong đợi: jolly
+print(shift_word("melon", 16))  # Kết quả mong đợi: cubed
+words = [
+    "listen",
+    "silent",
+    "enlist",
+    "inlets",
+    "google",
+    "gogole",
+    "evil",
+    "vile",
+    "veil",
+    "live",
+]
+find_anagram_groups(words)
+sample_text = "This is a sample English text."
+most_frequent_letters(sample_text)
+print(word_distance("apple", "ammle"))  # Kết quả: 2
+print(word_distance("hello", "hullo"))  # Kết quả: 1
+print(word_distance("test", "tent"))  # Kết quả: 1
+print(word_distance("same", "same"))  # Kết quả: 0
 words1 = [
     "converse",
     "conserve",

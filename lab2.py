@@ -82,7 +82,7 @@ def draw_arc(radius, angle):
 t.pensize(5)
 t.speed(0)
 
-# draw_pie(100, 100)
-# draw_rectangle(200, 100)
-# draw_rhombus(200, 100, 60)
-# draw_flower(4, 100, 60)
+draw_pie(100, 100)
+draw_rectangle(200, 100)
+draw_rhombus(200, 100, 60)
+draw_flower(4, 100, 60)
