@@ -28,17 +28,22 @@ def is_interlocking(word, word_set):
     return False
 
 
+# Assignment 1, 3, 4
 text = "brontosaurus"
 text1 = "apatosaurus"
 counter = value_counts(text)
 counter1 = value_counts(text1)
 print(counter)
 print(counter1)
+
+# Assignment 2
 print(has_duplicates("hello"))
 print(has_duplicates("world"))
 repeats = find_repeats(counter)
 print("Repeated letters:", repeats)
 print("Add Counter:", add_counters(counter, counter1))
+
+# Assignment 5
 print(
     "Interlocking words:",
     is_interlocking("schooled", {"shoe", "cold"}),

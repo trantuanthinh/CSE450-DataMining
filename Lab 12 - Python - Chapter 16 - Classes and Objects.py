@@ -84,6 +84,7 @@ class Circle:
         return math.pi * self.radius**2
 
 
+# Assignment 1, 2, 3, 4, 5
 # Example usage
 p1 = Point(0, 0)
 p2 = Point(1, 0)

@@ -63,9 +63,12 @@ def find_metathesis_pairs(word_list):
     return result
 
 
+# Assignment 1
 t = (tuple([1, 2]), tuple([3, 4]))
 my_dict = {t: "value"}
 print(my_dict)
+
+# Assignment 2
 print(shift_word("cheer", 7))  # Kết quả mong đợi: jolly
 print(shift_word("melon", 16))  # Kết quả mong đợi: cubed
 words = [
@@ -80,13 +83,21 @@ words = [
     "veil",
     "live",
 ]
-find_anagram_groups(words)
+
+# Assignment 3
 sample_text = "This is a sample English text."
 most_frequent_letters(sample_text)
+
+# Assignment 4
+find_anagram_groups(words)
+
+# Assignment 5
 print(word_distance("apple", "ammle"))  # Kết quả: 2
 print(word_distance("hello", "hullo"))  # Kết quả: 1
 print(word_distance("test", "tent"))  # Kết quả: 1
 print(word_distance("same", "same"))  # Kết quả: 0
+
+# Assignment 6
 words1 = [
     "converse",
     "conserve",

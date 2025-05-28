@@ -43,11 +43,15 @@ def is_after(date1, date2):
 t1 = Time(9, 15, 30)
 t2 = Time(11, 45, 15)
 
+# Assignment 1
 difference = subtract_time(t1, t2)
-isAfter = is_after(t1, t2)
 print(f"Time difference: {difference} seconds")
+
+# Assignment 2
+isAfter = is_after(t1, t2)
 print(f"Is After: {isAfter}")
 
+# Assignment 3
 date1 = make_date(1933, 6, 22)
 print_date(date1)
 date2 = make_date(1933, 9, 17)

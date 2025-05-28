@@ -6,6 +6,7 @@ screen = turtle.Screen()
 t = turtle.Turtle()
 
 
+# Assignment 3
 def draw_parallelogram(width, height, angle):
     t.forward(width)
     t.left(180 - angle)
@@ -82,7 +83,14 @@ def draw_arc(radius, angle):
 t.pensize(5)
 t.speed(0)
 
-draw_pie(100, 100)
+# Assignment 1
 draw_rectangle(200, 100)
+
+# Assignment 2
 draw_rhombus(200, 100, 60)
+
+# Assignment 4
+draw_pie(100, 100)
+
+# Assignment 5
 draw_flower(4, 100, 60)

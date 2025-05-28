@@ -19,6 +19,7 @@ def uses_only(string, available):
     return True
 
 
+# Assignment 5
 def uses_all(string, required):
     # for letter in required.lower():
     #     if letter not in string.lower():
@@ -45,15 +46,19 @@ def score_word(word, available):
 
 run_docstring_examples(uses_none, globals())
 
+# Assignment 1
 print(uses_none("banana", "xyz"))
 print(uses_none("apple", "efg"))
 
+# Assignment 2
 print(uses_only("banana", "ban"))
 print(uses_only("apple", "apl"))
 
+# Assignment 3
 print(uses_all("banana", "ban"))
 print(uses_all("apple", "api"))
 
+# Assignment 4
 print(check_word("color", "ACDLORT", "R"))
 print(check_word("ratatat", "ACDLORT", "R"))
 print(check_word("rat", "ACDLORT", "R"))

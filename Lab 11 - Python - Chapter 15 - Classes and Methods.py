@@ -14,6 +14,7 @@ class Date:
         return (self.year, self.month, self.day)
 
 
+# Assignment 1
 date1 = Date(1933, 6, 22)
 print(str(date1))
 date2 = Date(1933, 9, 17)

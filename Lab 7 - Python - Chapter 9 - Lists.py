@@ -31,6 +31,7 @@ def total_length(input_file):
         return None
 
 
+# Assignment 1
 word_list = [
     "stake",
     "skate",
@@ -49,7 +50,13 @@ anagrams_of_takes = [
     if is_anagram(word, target_word) and word.lower() != target_word.lower()
 ]
 print("Anagrams of 'takes':", anagrams_of_takes)
+
+# Assignment 2
 print("Is Parlindrome:", is_palindrome("racecar"))
 setence = "I enjoy many outdoor activities, e.g., hiking, camping, and fishing."
+
+# Assignment 3
 print("Reverse Sentence:", reverse_sentence(setence))
+
+# Assignment 4
 print("Total length:", total_length("words.txt"))

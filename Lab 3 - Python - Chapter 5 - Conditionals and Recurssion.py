@@ -17,10 +17,15 @@ hours = seconds_today // 3600
 minutes = (seconds_today % 3600) // 60
 seconds = seconds_today % 60
 
+# Assignment 1
 print(f"Days since 1970-01-01: {days_since_epoch}")
 print(f"Current time (UTC): {hours:02d}:{minutes:02d}:{seconds:02d}")
-print(is_triangle(3, 4, 5))
 
+# Assignment 2
+print(is_triangle(3, 4, 5))
+print(is_triangle(17, 1, 7))
+
+# Assignment 3
 # n=3, s=0 -> recurse(n=3-1=2,s=3+0=3)
 # n=2, s=3 -> recurse(n=2-1=1,s=2+3=5)
 # n=1, s=5 -> recurse(n=1-1=0,s=1+5=6)

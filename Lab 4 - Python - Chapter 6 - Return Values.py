@@ -25,9 +25,16 @@ def GCD(a, b):
     return GCD(b, a % b)
 
 
+# Assignment 1
 print(hypot(3, 4))
+
+# Assignment 2
 print(is_between(2, 3, 4))
 print(is_between(5, 4, 3))
 print(is_between(5, 3, 4))
+
+# Assignment 3
 print(ackermann(5, 5))
+
+# Assignment 4
 print(GCD(10, 20))

@@ -44,8 +44,11 @@ def check_word(word, target_word):
     return "".join(result)
 
 
+# Assignment 1
 head("words.txt", 5)
 
+# Assignment 2
+# Assignment 3: The target word is "TOTEM"
 target_word = "MOWER"
 for i in range(0, 6):
     guess = input("Enter your guess: ")
@@ -54,6 +57,7 @@ for i in range(0, 6):
     if temp == "Correct!":
         break
 
+# Assignment 4
 pattern = r"\b(?:pale(?:s|d|ness)?|pallor)\b"
 text = "Her face turned pale. He pales in comparison. They paled at the sight. The paleness of his skin was evident. The pallor of her complexion was alarming."
 matches = re.findall(pattern, text, flags=re.IGNORECASE)
