@@ -1,0 +1,45 @@
+----- DATA SCIENCE/DATA-MINING WORKFLOW -----------------
+
+# 1. Problem Understanding (Hiểu bài toán)
+- Define goals (e.g. prediction, classification)
+- Understand business context
+- Identify inputs & outputs
+
+# 2. EDA - Exploratory Data Analysis (Phân tích khám phá)
+- Plot histograms, boxplots, pairplots
+- Correlation matrix (heatmap)
+
+# 3. Cleaning (Làm sạch dữ liệu)
+- Handle missing values: mean/median/mode or drop rows
+- Remove outliers (IQR, Z-score)
+
+# 4. Transformation (Biến đổi dữ liệu)
+- Normalize/standardize (MinMaxScaler, StandardScaler)
+- Encode categorical data (get_dummies, LabelEncoder)
+- Log transform skewed data
+
+# 5. Feature Engineering (Tạo đặc trưng)
+- Create new features from existing ones
+- Combine columns, create ratios, time features
+
+# 6. Feature Selection (Chọn đặc trưng)
+- Correlation analysis
+- Filter methods (SelectKBest)
+- Wrapper (RFE), Embedded (Lasso, Tree Importance)
+
+# 7. Modeling (Xây dựng mô hình)
+- Train/test split (e.g. 80/20)
+- Choose ML algorithm (Linear Regression, Random Forest, etc.)
+
+# 8. Evaluation (Đánh giá mô hình)
+- Metrics: MSE, RMSE, R², Accuracy, F1-score
+- Use Confusion Matrix, ROC Curve
+- Cross-validation
+
+# 9. Tuning (Tối ưu hóa)
+- Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
+
+# 10. Deployment (Triển khai)
+- Export model (pickle, joblib)
+- Build API with Flask/FastAPI
+- Deploy to Cloud or Docker
